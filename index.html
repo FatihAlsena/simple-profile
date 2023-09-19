@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Dasar</title>
+
+  <!-- CSS Utama -->
+  <link rel="stylesheet" href="asset/css/style.css">
+  <!-- Font Awesome 5.15.4 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <header class="navbar-container">
+    <nav>
+      <div class="container-flex">
+        <div class="brand">
+          <a>Portofolio</a>
+        </div>
+        <div class="icon">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="background-sidebar"></div>
+        <ul class="sidebar">
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a href="#project">Project</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main>
+    <div id="bio" class="content">
+      <div class="content-description">
+        <article>
+          <h1 class="sambutan">Hai!</h1>
+          <p>Saya Fatih Alsena saya seorang mahasiswa Universitas Bina Insani, saya mahasiswa yang
+            tertarik mengikuti program Bangkit 2023.</p>
+        </article>
+      </div>
+      <div class="content-image">
+        <img src="asset/img/foto.jpg" alt="Foto Profile">
+      </div>
+    </div>
+
+    <!-- content -->
+    <div id="content" class="pengalaman">
+      <div id="pengalaman" class="article">
+        <h2 class="judul">Pengalaman</h2>
+        <article>
+          <h1 class="isi-article">Pengalaman Belajar Pemrograman</h1>
+          <p>Saya memulai pemrograman sejak memasuki kuliah, dikarenakan saya memilih jurusan Teknik Informatika
+            saya tidak begitu mahir dalam membuat sebuah pemrograman.</p>
+        </article>
+
+        <article>
+          <h1 class="isi-article">Pengalaman Dalam Bidang Jaringan</h1>
+          <p>Saya lebih memiliki pengalaman atau ilmu dalam bidang jaringan dan hardware.</p>
+        </article>
+      </div>
+
+      <!-- Project -->
+      <div id="project" class="content">
+        <div class="project-description">
+          <article>
+            <h1 class="project">Project</h1>
+            <p>Saya pernah membuat sebuah program penilaian untuk Madrasah Diniyah sebagai tugas akhir dari
+              matakuliah Pemrograman Web Dasar.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <div class="slide-gambar">
+          <div class="numbertext">1 / 3</div>
+          <img src="asset/img/project/project1.jpg" style="width:100%">
+          <div class="text">Halaman Login</div>
+        </div>
+
+        <div class="slide-gambar">
+          <div class="numbertext">2 / 3</div>
+          <img src="asset/img/project/project2.jpg" style="width:100%">
+          <div class="text">Dashboard</div>
+        </div>
+
+        <div class="slide-gambar">
+          <div class="numbertext">3 / 3</div>
+          <img src="asset/img/project/project3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div class="dot1" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <!-- aside -->
+      <aside>
+        <div class="social-media">
+          <ul>
+            <li>Contact Me!</li>
+            <li><a href="https://www.facebook.com/fatih.alsena"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/fatih-alsena-399297260/"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li><a href="https://twitter.com/fatihalsena"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </aside>
+
+  </main>
+  <!-- footer -->
+  <footer>Dibuat Oleh Fatih Alsena
+    <div class="social-media2">
+      <ul>
+        <a href="https://www.facebook.com/fatih.alsena"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/fatih-alsena-399297260/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com/fatihalsena"><i class="fab fa-twitter"></i></a>
+      </ul>
+    </div>
+  </footer>
+  <script src="asset/js/script.js"></script>
+</body>
+
+</html>
